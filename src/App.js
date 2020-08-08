@@ -22,7 +22,7 @@ const App = () => {
   }
   return(
     <div>
-      <h2>React Todo App</h2>
+      <h2>Today Tasks</h2>
       <Header length={tasks.length}/>
       <TodoList 
         todos={tasks}

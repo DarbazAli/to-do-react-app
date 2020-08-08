@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Todo = ({item, onDelete, id}) => {
     return (
         <div className="list-item">
-            <h3>{item}</h3>
+            <p>{item}</p>
             <button onClick={() => onDelete(id)}>Delete</button>
         </div>
     )
