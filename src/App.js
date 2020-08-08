@@ -23,7 +23,7 @@ const App = () => {
   return(
     <div>
       <h2>React Todo App</h2>
-      <Header length={0}/>
+      <Header length={tasks.length}/>
       <TodoList 
         todos={tasks}
         onDelete={handleDelete}
