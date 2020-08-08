@@ -10,6 +10,7 @@ const TodoList = ({onDelete, todos}) => {
                     return <Todo 
                         key={index}
                         item={item}
+                        id={index}
                         onDelete={onDelete}
                     />
                 })
