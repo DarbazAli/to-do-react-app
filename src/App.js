@@ -7,7 +7,7 @@ const Header = ({ lenght }) => {
 
 const ToDo = ({ item }) => {
   return (
-    <div>
+    <div className="todo">
       <p>{item}</p>
       <button>X</button>
     </div>
