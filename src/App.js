@@ -1,11 +1,12 @@
 import React from "react";
 import { render } from "react-dom";
+import Header from "./components/Header";
 
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello React!</h1>
+    <div className="todo-app">
+      <Header />
     </div>
   );
 };
